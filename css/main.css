@@ -1,0 +1,411 @@
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+.wrapper{
+	width: 100%;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto
+}
+/*	MENU*/
+ul{
+	list-style: none;
+}
+li{
+	text-decoration: none;
+	display: inline-block;
+}
+/*	NAVIGATION*/
+nav{
+/*	background: #FFE8E8;*/
+
+}
+.nav-row{
+	width:100%;
+	height: 127px;
+}
+nav ul{
+	text-align: center;
+/*	background: #FFA9AA*/
+}
+nav li{
+/*	background: #FFFA7C;*/
+	line-height: 127px;
+	font-weight: 700;
+	padding: 0 30px;
+}
+nav a{
+	text-decoration: none;
+}
+/*	-----------HOME*/
+#home{
+	width: 100%;
+	height:1080px;
+	background-image: url(../img/banner.jpg);
+	background-color: rgba(34, 34, 34, 0.73);
+	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+/*	FONT*/
+	color:white;
+	box-sizing: border-box;
+	padding-top: 115px;
+}
+.home-top{
+/*	margin-top:115px;*/
+}
+.home-top a{
+	color:white
+}
+.home-top h3{
+	margin-top:56px;
+	margin-bottom: 39px;
+}
+.home-social li{
+	padding: 0 10px
+}
+.home-middle{
+	margin-top:14%;
+}
+/*	LINE*/
+.line{
+	width: 12%;
+	height:1px;
+	
+/*	background: red;*/
+}
+.line1{
+	width:20%;
+	height: 100%;
+	float: left
+}
+.line2{
+	width:40%;
+	height:100%;
+	float: left;
+	margin:0 10%
+}
+#home .line{
+	margin: 5.2% auto 5.2%;
+}
+#home .line1{
+	background: white;
+}
+#home .line2{
+	background: white;
+}
+
+/*	-----------ABOUT*/
+#about{
+	padding: 10% 0 15%;
+/*	background: #FDFD81*/
+}
+.ab-agency{
+	width: 100%;
+	height:543px;
+}
+.ab-img{
+	width:38%;
+	height:100%;
+	overflow: hidden;
+	float: left;
+	background-image: url(../img/about.jpg);
+	background-position: center;
+	 box-shadow: 7px 5px 49px 0 rgba(0, 0, 0, 0.26);
+  border: solid 5px #ececec;
+}
+.ab-intro{
+	width: 60%;
+	height: 100%;
+	float: left;
+/*	background: #FFCDCE;*/
+	box-sizing: border-box;
+	padding:49px 20px 0px 180px;
+}
+#about .line{
+	width:12%;
+	margin: 18px auto 34px;
+/*	background: #ff9934*/
+}
+#about .line1{
+	background: #ff9934
+}
+#about .line2{
+	background: #ff9934
+}
+.ab-intro p{
+/*	width:538px;*/
+	margin-top: 57px;
+}
+.ab-sign{
+	width:250px;
+	height:70px;
+	margin:0 auto;
+/*	background: #FF9193*/
+}
+.ab-sign img{
+	display: block;
+	float: left
+}
+.ab-sign p{
+/*	display: block;*/
+/*	float: right;*/
+	padding-top:23px;
+/*	background: #BCFD79*/
+}
+/*	ABOUT SKILL*/
+.ab-skill{
+	margin-top:100px;
+	background: #FF9193;
+}
+.ab-box{
+	width:33.33%;
+	float: left;
+	
+}
+.ab-icon{
+/*	width:100px;*/
+/*	background: #FFA7A8;*/
+	display: block;
+	float: left;
+	margin-right:30px
+}
+.ab-icon i{
+	padding: 25px;
+	border-radius: 50%;
+	border: solid 2px #e0e0e0;
+	color: #636363;
+}
+.ab-text{
+	float:left;
+	width: 60%
+}
+/*	-----------FEEDBACK*/
+#feed{
+	width: 100%;
+/*	height: 706px;*/
+	text-align: center;
+	background-image: url(../img/fb.jpg);
+	background-position: center;
+	padding: 144px 0;
+}
+.feed-cont{
+	width:749px;
+	height:auto;
+	margin:0 auto
+}
+#feed p{
+	margin: 64px auto 54px;
+	
+}
+/*	-----------MEMBER*/
+#mem{
+	text-align: center;
+	padding: 153px 0;
+/*	background: #FFE1E2*/
+}
+#mem .line{
+	width:5%;
+	margin: 18px auto 34px;
+/*	background: #ff9934*/
+}
+#mem .line1{
+	background: #ff9934
+}
+#mem .line2{
+	background: #ff9934
+}
+.mem-contain{
+	display: table
+}
+.mem-box{
+	width:33.33%;
+	float: left;
+	box-sizing: border-box;
+	padding: 52px 52px;
+/*	background: #EEFFBC;*/
+	
+}
+.mem-box:hover{
+	box-shadow: 7px 5px 32px 0 rgba(0, 0, 0, 0.11);
+}
+.mem-img{
+	mix-blend-mode: luminosity;
+	width: 169px;
+	height:169px;
+	border-radius: 50%;
+	margin:auto;
+	background-color: black;
+	overflow: hidden
+}
+.mem-img img{
+	mix-blend-mode: luminosity;
+}
+.mem-box:hover .mem-img{
+	background-color: transparent;
+}
+.mem-box li{
+	margin-top:28px;
+	padding: 0 5px;
+}
+.mem-box a{
+	color:#888888
+}
+.mem-box a:hover{
+	color:#ff9934
+}
+.mem-box h4{
+	margin-top: 32px
+}
+	
+/*	PORTFOLIO*/
+#project{
+	text-align: center
+}
+#project .line{
+	width:4%;
+	margin: 18px auto 34px;
+/*	background: #ff9934*/
+}
+#project .line1{
+	background: #ff9934;
+}
+#project .line2{
+	background: #ff9934
+}
+.proj-row{
+	width:1920px;
+	margin: 0 auto;
+	height:568px;
+/*	margin: 10px 20px 0;*/
+/*	display: table;*/
+/*	text-align: center;*/
+/*	background: #ACC2FF;*/
+	box-sizing: border-box;
+	padding-left:35px;
+	overflow: hidden;
+}
+.proj-box{
+	width: 420px;
+/*	height:600px;*/
+	float: left;
+	background: #FFCACB;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin: 20px;
+}
+.proj-box-small{
+	width: 100%;
+	height:264px;
+	float: left;
+	margin-bottom: 20px;
+	background: #FFB6B7
+/*	padding: */
+/*	overflow: hidden;*/
+}
+.proj-box-small img{
+	width:110%;
+	display: block;
+}
+.pic-large{
+	height:100%;
+	overflow: hidden
+}
+.pic-large img{
+	height:110%
+}
+#blog .blog-p, h2{
+	text-align: center
+}
+#blog{
+	padding:160px 0;
+/*	display: table*/
+}
+#blog .line{
+	width:5%;
+	margin: 18px auto 34px;
+/*	background: #ff9934*/
+}
+#blog .line1, .line2{
+	background: #ff9934
+}
+.blog-row{
+	height:auto;
+	background: #FFCCCC
+/*	display: table*/
+}
+.blog-box{
+	width: 33.33%;
+	box-sizing: border-box;
+	padding: 0 15px;
+	float: left;
+	margin-bottom: 160px
+}
+.blog-p{
+	margin-bottom: 40px;
+	color:#777777
+}
+.blog-box figure{
+	width:100%;
+	height:285px;
+	background: #FF8D8F;
+	overflow: hidden;
+	margin-bottom: 33px;
+}
+.blog-box img{
+	height: 100%
+}
+.fa-calendar-alt, .fa-comment{
+	padding-right:4px;
+	margin:19px 0 17px 0;
+	color:#ff9934
+}
+.fa-comment{
+	padding-left:20px
+}
+.fa-chevron-right{
+	padding-left: 7px;
+	color:black !important
+}
+#map{
+	
+}
+footer{
+	background-color: #333333;
+	box-sizing: border-box;
+	padding: 6%
+}
+.footer-row{
+/*	margin:100px 0;*/
+	text-align: center;
+	
+}
+.footer-row h4{
+	color: #ff9934
+}
+.footer-row p{
+	color: #ababab;
+}
+.footer-row ul{
+	margin:40px 0
+}
+.footer-social a{
+	padding: 15px;
+	box-sizing: border-box;
+	border-radius: 50%;
+	background-color: #525252;
+	color:white;
+	
+}
+.footer-social i{
+/*	font-size: 16px !important;*/
+/*	background: #FF9E9F*/
+}

@@ -1,0 +1,77 @@
+/* CSS Document */
+h1{
+	font-size:40px;
+	font-family:'Montserrat',sans-serif;
+	font-weight: 400;
+	line-height: 1.45;
+	letter-spacing: 2.2px;
+  	text-align: center;
+}
+h2{
+	font-size: 34px;
+	font-family:'Montserrat',sans-serif;
+}
+h3{
+	font-size: 28px;
+	font-family:'Montserrat',sans-serif;
+}
+h4{
+	font-size: 18px;
+	font-family:'Montserrat',sans-serif;
+}
+h5{
+	font-size: 22px;
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	font-weight: 400
+}
+h6{
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.4px;
+	line-height: 2;
+	font-weight: 400;
+	color: #787878
+}
+p{
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.4px;
+	line-height: 2
+}
+nav{
+	font-size: 16px;
+	font-family:'Montserrat',sans-serif;
+}
+.home-top a{
+	font-size: 25px
+}
+.home-social a{
+	font-size:20px !important
+}
+.home-middle{}
+.ab-intro{
+	text-align: center
+}
+.ab-intro h4{
+	letter-spacing: 4px;
+}
+.ab-intro p{
+	line-height: 2
+}
+#feed h2{
+	color:white
+}
+#feed p{
+	color:#ababab
+}
+.mem-color p{
+	color:red !important
+}
+.blog-box a{
+	font-family: 'Montserrat',sans-serif;
+	font-weight: 600
+}
+.footer-social a{
+/*	font-size: 13px;*/
+}
